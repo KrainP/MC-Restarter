@@ -4,3 +4,7 @@ main: eu.pkdb.restartplugin.RestartPlugin
 api-version: 1.18
 authors: [ N3xiZ ]
 description: Restart the server at a given time, with a given script.
+commands:
+  restarter:
+    description: Tells the user the current time for the next restart
+    usage: /<command>
